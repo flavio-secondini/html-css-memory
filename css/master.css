@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #add8e6;
+}
+
+.header {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-variant-caps: all-petite-caps;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.main-body {
+  margin: 0 15%;
+  padding: 0;
+  text-align: center;
+}
+
+.cell {
+  background-image: url('../img/pattern.png');
+  background-repeat: no-repeat;
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin: 5%;
+
+}
+
+.row {
+  content: "";
+  display: table;
+  clear: both;
+  margin: 0;
+}
