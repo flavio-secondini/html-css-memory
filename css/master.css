@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  padding: 0;
 }
 
 .container {
   background-color: #add8e6;
+  margin: 0;
 }
 
 .header {
@@ -28,16 +28,25 @@ body {
 .cell {
   background-image: url('../img/pattern.png');
   background-repeat: no-repeat;
-  float: left;
-  height: 100px;
-  width: 100px;
-  margin: 5%;
-
+  display: inline-block;
+  border-radius: 5%;
+  height: 200px;
+  width: 180px;
+  margin: 2% 1%;
 }
 
-.row {
-  content: "";
-  display: table;
-  clear: both;
-  margin: 0;
+.author {
+  padding: 30px 0 70px 0;
+  text-align: center;
+}
+
+#show {
+  background-color: white;
+  background-image: url('../img/noun_air_balloon.png');
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.balloon {
+  display: inline-block;
 }
