@@ -25,9 +25,14 @@ body {
   text-align: center;
 }
 
+.row {
+  display: inline-block;
+  width: 100%
+}
+
 .cell {
   background-image: url('../img/pattern.png');
-  background-repeat: no-repeat;
+  background-size: 100%;
   display: inline-block;
   border-radius: 5%;
   height: 200px;
@@ -43,10 +48,16 @@ body {
 #show {
   background-color: white;
   background-image: url('../img/noun_air_balloon.png');
-  max-width: 100%;
-  max-height: 100%;
+  background-repeat:no-repeat;
+  background-size: 90%;
+  position: relative;
 }
 
 .balloon {
-  display: inline-block;
+  position: absolute;
+  color: #e61986;
+  font-style: oblique;
+  font-weight: 700;
+  top: 135px;
+  left: 10px;
 }
