@@ -1,3 +1,5 @@
+/* header */
+
 body {
   margin: 0;
 }
@@ -18,6 +20,8 @@ body {
 .title {
   margin-top: 0;
 }
+
+/* central body */
 
 .main-body {
   margin: 0 15%;
@@ -40,11 +44,6 @@ body {
   margin: 2% 1%;
 }
 
-.author {
-  padding: 30px 0 70px 0;
-  text-align: center;
-}
-
 #show {
   background-color: white;
   background-image: url('../img/noun_air_balloon.png');
@@ -53,7 +52,101 @@ body {
   position: relative;
 }
 
-.balloon {
+.balloon-h1 {
+  position: absolute;
+  color: #e61986;
+  font-style: oblique;
+  font-weight: 700;
+  top: 135px;
+  left: 10px;
+}
+
+/* footer */
+
+.author {
+  padding: 30px 0 70px 0;
+  text-align: center;
+}
+
+/* BONUS */
+
+[class^=overlay-] {
+  background-color: white;
+  background-repeat:no-repeat;
+  height: 200px;
+  width: 180px;
+  border-radius: 5%;
+  background-size: 90%;
+  position: relative;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.cell:hover [class^=overlay-] {
+  opacity: 1;
+}
+
+.overlay-bicycle {
+  background-image:url('../img/noun_bicycle.png');
+}
+
+.overlay-ship {
+  background-image: url('../img/noun_cruise_ship.png');
+}
+
+.overlay-submarine {
+  background-image: url('../img/noun_submarine.png');
+}
+
+.overlay-tractor {
+  background-image: url('../img/noun_tractor.png');
+}
+
+.overlay-tram {
+  background-image: url('../img/noun_tram.png');
+}
+
+.overlay.balloon {
+  background-image: url('../img/noun_air_balloon.png');
+}
+
+.bicycle-h1 {
+  position: absolute;
+  color: #e61986;
+  font-style: oblique;
+  font-weight: 700;
+  top: 135px;
+  left: 10px;
+}
+
+.ship-h1 {
+  position: absolute;
+  color: #e61986;
+  font-style: oblique;
+  font-weight: 700;
+  top: 135px;
+  left: 10px;
+}
+
+.submarine-h1 {
+  position: absolute;
+  color: #e61986;
+  font-style: oblique;
+  font-weight: 700;
+  top: 135px;
+  left: 10px;
+}
+
+.tractor-h1 {
+  position: absolute;
+  color: #e61986;
+  font-style: oblique;
+  font-weight: 700;
+  top: 135px;
+  left: 10px;
+}
+
+.tram-h1 {
   position: absolute;
   color: #e61986;
   font-style: oblique;
